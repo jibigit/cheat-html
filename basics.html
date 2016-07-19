@@ -662,38 +662,168 @@
             </tbody>
         </table>
 
-
-
-    
-    <!-- Included JS Files (Compressed) -->
-    <script src="javascripts/foundation.min.js" type="text/javascript">
-    </script>
-    <!-- Initialize JS Plugins -->
-    <script src="javascripts/app.js" type="text/javascript">
-    </script>
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
-    </script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-    (function(b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] || (b[l] =
-            function() {
-                (b[l].q = b[l].q || []).push(arguments)
-            });
-        b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = 'https://www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X', 'auto');
-    ga('send', 'pageview');
-    </script>
+<p></p>
+        <h2 id="Web_Components">Web Components</h2>
+        <p>Web Components is an HTML-related technology which makes it possible to, essentially, create and use custom elements as if it were regular HTML. In addition, you can create custom versions of standard HTML elements.</p>
+        <div class="note"><strong>Note: </strong>The elements for Web Components are defined in the World Wide Web Consortium (W3C) Web Components collection of specifications rather than the HTML specification. In addition, the Web Components specification has not been finalized and is subject to change.</div>
+        <p></p>
+        <table class="standard-table">
+            <thead>
+                <tr>
+                    <th scope="col">Element</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;content&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;content&gt;</code></strong> element is used inside of Shadow DOM as an insertion point. It is not intended to be used in ordinary HTML. It is used with Web Components. It has now been replaced by the <strong>&lt;slot&gt;</strong> element.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;element&gt;</code></td>
+                    <td>The <strong>HTML<code>&lt;element&gt;</code> element</strong> is used to define new custom DOM elements.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;shadow&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;shadow&gt;</code></strong> element is used as a shadow DOM insertion point. You might use it if you have created multiple shadow roots under a shadow host. It is not useful in ordinary HTML. It is used with Web Components.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;template&gt;</code></td>
+                    <td>The <strong>HTML template element <code>&lt;template&gt;</code></strong> is a mechanism for holding client-side content that is not to be rendered when a page is loaded but may subsequently be instantiated during runtime using JavaScript. </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="Obsolete_and_deprecated_elements">Obsolete and deprecated elements</h2>
+        <div class="warning">
+            <p><strong>Warning:</strong> These are old HTML elements which are deprecated and should not be used. <strong>You should never use them in new projects, and should replace them in old projects as soon as you can.</strong> They are listed here for informational purposes only.</p>
+        </div>
+        <p></p>
+        <table class="standard-table">
+            <thead>
+                <tr>
+                    <th scope="col">Element</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;acronym&gt;</code></td>
+                    <td>The HTML Acronym Element (<code>&lt;acronym&gt;)</code> allows authors to clearly indicate a sequence of characters that compose an acronym or abbreviation for a word.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;applet&gt;</code></td>
+                    <td>The HTML Applet Element (<code>&lt;applet&gt;</code>) identifies the inclusion of a Java applet.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;basefont&gt;</code></td>
+                    <td>The HTML basefont element (<code>&lt;basefont&gt;</code>) establishes a default font size for a document. Font size then can be varied relative to the base font size using the <code>&lt;font&gt;</code> element.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;big&gt;</code></td>
+                    <td>The HTML Big Element (<code>&lt;big&gt;</code>) makes the text <em>font size</em> one size bigger (for example, from small to medium, or from large to x-large) up to the browser's maximum font size.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;blink&gt;</code></td>
+                    <td>The HTML Blink Element (<code>&lt;blink&gt;</code>) is a non-standard element causing the enclosed text to flash slowly.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;center&gt;</code></td>
+                    <td>The HTML Center Element (<code>&lt;center&gt;</code>) is a block-level element that can contain paragraphs and other block-level and inline elements. The entire content of this element is centered horizontally within its containing element (typically, the <code>&lt;body&gt;</code>).</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;command&gt;</code></td>
+                    <td>The <code>command</code> element represents a command which the user can invoke.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;content&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;content&gt;</code></strong> element is used inside of insertion point. It is not intended to be used in ordinary HTML. It is used with Web Components. It has now been replaced by the <strong>&lt;slot&gt;</strong> element.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;dir&gt;</code></td>
+                    <td>The <em>HTML directory element</em> (<code>&lt;dir&gt;</code>) represents a directory, namely a collection of filenames.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;font&gt;</code></td>
+                    <td>The <em>HTML Font Element</em> (<span style="font-family: courier new;">&lt;font&gt;</span>) defines the font size, color and face for its content.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;frame&gt;</code></td>
+                    <td><code>&lt;frame&gt;</code> is an HTML element which defines a particular area in which another HTML document can be displayed. A frame should be used within a <code>&lt;frameset&gt;</code>.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;frameset&gt;</code></td>
+                    <td><code>&lt;frameset&gt;</code> is an HTML element which is used to contain <code>&lt;frame&gt;</code> elements.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;isindex&gt;</code></td>
+                    <td><strong><code>&lt;isindex&gt;</code></strong> is an obsolete HTML element that puts a text field in a page for querying the document.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;keygen&gt;</code></td>
+                    <td>The HTML <code>&lt;keygen&gt;</code> element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the <code>&lt;keygen&gt;</code> element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;listing&gt;</code></td>
+                    <td>The <em>HTML Listing Element</em> (<code>&lt;listing&gt;</code>) renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML 2 standard recommended that lines shouldn't be broken when not greater than 132 characters.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;marquee&gt;</code></td>
+                    <td>The HTML <code>&lt;marquee&gt;</code> element is used to insert a scrolling area of text.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;multicol&gt;</code></td>
+                    <td>The HTML <code>&lt;multicol&gt;</code> element was an experimental element designed to allow multi-column layouts. It never got any significant traction and is not implemented in any major browsers.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;nextid&gt;</code></td>
+                    <td><strong><code>&lt;nextid&gt;</code></strong> is an obsolete HTML element that served to enable the NeXT web designing tool to generate automatic NAME labels for its anchors. It was generated by that web editing tool automatically and was not to be adjusted or entered by hand. This element has the distinction of being the first element to become one of the "Lost Tags" by being eliminated from the official public DTD's of the HTML versions. It is also probably one of the least understood of all of the early HTML elements.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;noembed&gt;</code></td>
+                    <td>The <code><strong>&lt;noembed&gt;</strong></code> element is a deprecated and non-standard way to provide alternative, or "fallback", content for browsers that do not support the <code>&lt;embed&gt;</code>element or do not support embedded content an author wishes to use.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;plaintext&gt;</code></td>
+                    <td>The <em>HTML Plaintext Element</em> (<code>&lt;plaintext&gt;</code>) renders everything following the start tag as raw text, without interpreting any HTML. There is no closing tag, since everything after it is considered raw text.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;spacer&gt;</code></td>
+                    <td><code>&lt;spacer&gt;</code> is an HTML element which is used for inserting white spaces to web pages. It was created by NetScape for achieving same effect as a single-pixel layout GIF image, which was something web designers used to use to add white spaces to web pages, without actually using a GIF. However <code>&lt;spacer&gt; </code>is not supported by any major browser and same effects can be created with various CSS rules. In Mozilla applications, support for this element was removed in <span title="(Firefox 4 / Thunderbird 3.3 / SeaMonkey 2.1)">Gecko 2.0</span>. Therefore usage of <code>&lt;spacer&gt;</code> is unnecessary.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;strike&gt;</code></td>
+                    <td>The <em>HTML Strikethrough Element</em> (<code>&lt;strike&gt;</code>) renders text with a strikethrough, or a line through it.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;tt&gt;</code></td>
+                    <td>The HTML Teletype Text Element (<code>&lt;tt&gt;</code>) produces an inline element displayed in the browser's default monotype font. This element was intended to style text as it would display on a fixed width display, such as a teletype. It probably is more common to display fixed width type using the <code>&lt;code&gt;</code> element.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;xmp&gt;</code></td>
+                    <td>The <em>HTML Example Element</em> (<code>&lt;xmp&gt;</code>) renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML2 specification recommended that it should be rendered wide enough to allow 80 characters per line.</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="twelve columns">
+                <ul id="menu3" class="footer_menu horizontal">
+                    <li class=""><a href="index.html">Home</a></li>
+                </ul>
+                <p><a href="#top">Back to top</a></p>
+            </div>
+        </div>
+        <script type="text/javascript">
+        //<![CDATA[
+        $('ul#menu3').nav - bar();
+        //]]>
+        </script>
+        <!-- Included JS Files (Compressed) -->
+        <script src="javascripts/foundation.min.js" type="text/javascript">
+        </script>
+        <!-- Initialize JS Plugins -->
+        <script src="javascripts/app.js" type="text/javascript">
+        </script>
+    </div>
 </body>
 
 </html>
