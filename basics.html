@@ -143,6 +143,253 @@
                 </tr>
             </tbody>
         </table>
+<p></p>
+        <h2 id="Content_sectioning">Content sectioning</h2>
+        <p>Content sectioning elements allow you to organize the document content into logical pieces. Use the sectioning elements to create a broad outline for your page content, including header and footer navigation, and heading elements to identify sections of content. </p>
+        <p></p>
+        <table class="standard-table">
+            <thead>
+                <tr>
+                    <th scope="col">Element</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;address&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;address&gt;</code> element</strong> supplies contact information for its nearest <code>&lt;article&gt;</code> or <code>&lt;body&gt;</code>ancestor; in the latter case, it applies to the whole document.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;article&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;article&gt;</code> element</strong> represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). This could be a forum post, a magazine or newspaper article, a blog entry, an object, or any other independent item of content. Each <code>&lt;article&gt;</code> should be identified, typically by including a heading (<code>&lt;h1&gt;</code>-<code>&lt;h6&gt;</code>element) as a child of the <code>&lt;article&gt;</code> element.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;aside&gt;</code></td>
+                    <td>The <em>HTML <code>&lt;aside&gt;</code> element</em> represents a section of the page with content connected tangentially to the rest, which could be considered separate from that content. These sections are often represented as sidebars or inserts. They often contain the definitions on the sidebars, such as definitions from the glossary; there may also be other types of information, such as related advertisements; the biography of the author; web applications; profile information or related links on the blog.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;footer&gt;</code></td>
+                    <td>The<strong> HTML <code>&lt;footer&gt;</code> element</strong> represents a footer for its nearest or sectioning root element. A footer typically contains information about the author of the section, copyright data or links to related documents.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;header&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;header&gt;</code> element</strong> represents a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, wrapped section's header, a search form, and so on.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code> , <code>&lt;h4&gt;</code>,<code>&lt;h5&gt;</code><code>&lt;h6&gt;</code></td>
+                    <td><strong>Heading</strong> elements implement six levels of document headings, <code>&lt;h1&gt;</code> is the most important and <code>&lt;h6&gt;</code> is the least. A heading element briefly describes the topic of the section it introduces. Heading information may be used by user agents, for example, to construct a table of contents for a document automatically.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;hgroup&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;hgroup&gt;</code> Element</strong> (<em>HTML Headings Group Element</em>) represents the heading of a section. It defines a single title that participates in the outline of the document as the heading of the implicit or explicit section that it belongs to.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;nav&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;nav&gt;</code> element</strong> (<em>HTML Navigation Element</em>) represents a section of a page that links to other pages or to parts within the page: a section with navigation links.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p></p>
+        <h2 id="Text_content">Text content</h2>
+        <img src="HTML.png" alt="picture text">
+        <p>Use HTML text content elements to organize blocks or sections of content placed between the opening <code>&lt;body&gt;</code>and closing <code>&lt;/body&gt;</code> tags. Important for accessibility and SEO, these elements identify the purpose or structure of that content. </p>
+        <p></p>
+        <table class="standard-table">
+            <thead>
+                <tr>
+                    <th scope="col">Element</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;dd&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;dd&gt;</code> element</strong> (<em>HTML Description Element</em>) indicates the description of a term in a description list (<code>&lt;dl&gt;</code>) element. This element can occur only as a child element of a description list and it must follow a <code>&lt;dt&gt;</code> element.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;div&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;div&gt;</code> element</strong> (or <em>HTML Document Division Element</em>) is the generic container for flow content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the <strong>class</strong> or <strong>id</strong> attributes), or because they share attribute values, such as <strong>lang</strong>. It should be used only when no other semantic element (such as <code>&lt;article&gt;</code> or <code>&lt;nav&gt;</code>) is appropriate.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;dl&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;dl&gt;</code> element</strong> (or <em>HTML</em> <em>Description List Element</em>) encloses a list of pairs of terms and descriptions. Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;dt&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;dt&gt;</code> element</strong> (or <em>HTML Definition Term Element</em>) identifies a term in a definition list. This element can occur only as a child element of a <code>&lt;dl&gt;</code>. It is usually followed by a <code>&lt;dd&gt;</code> element; however, multiple <code>&lt;dt&gt;</code> elements in a row indicate several terms that are all defined by the immediate next <code>&lt;dd&gt;</code>element.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;figcaption&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;figcaption&gt;</code> element</strong> represents a caption or a legend associated with a figure or an illustration described by the rest of the data of the <code>&lt;figure&gt;</code> element which is its immediate ancestor which means <code>&lt;figcaption&gt;</code> can be the first or last element inside a <code>&lt;figure&gt;</code> block. Also, the <em>HTML Figcaption Element </em>is optional; if not provided, then the parent figure element will have no caption.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;figure&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;figure&gt;</code> element</strong> represents self-contained content, frequently with a caption (<code>&lt;figcaption&gt;</code>)<em><code>,</code></em> and is typically referenced as a single unit. While it is related to the main flow, its position is independent of the main flow. Usually this is an image, an illustration, a diagram, a code snippet, or a schema that is referenced in the main text, but that can be moved to another page or to an appendix without affecting the main flow.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;hr&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;hr&gt;</code> element</strong> represents a thematic break between paragraph-level elements (for example, a change of scene in a story, or a shift of topic with a section). In previous versions of HTML, it represented a horizontal rule. It may still be displayed as a horizontal rule in visual browsers, but is now defined in semantic terms, rather than presentational terms.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;li&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;li&gt;</code> element</strong> (or <em>HTML List Item Element</em>) is used to represent an item in a list. It must be contained in a parent element: an ordered list (<code>&lt;ol&gt;</code>), an unordered list (<code>&lt;ul&gt;</code>), or a menu (<code>&lt;menu&gt;</code>). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;main&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;main&gt;</code> element</strong> represents the main content of the <code>&lt;body&gt;</code> of a document or application. The main content area consists of content that is directly related to, or expands upon the central topic of a document or the central functionality of an application. This content should be unique to the document, excluding any content that is repeated across a set of documents such as sidebars, navigation links, copyright information, site logos, and search forms (unless the document's main function is as a search form).</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;ol&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;ol&gt;</code> Element</strong> (or <em>HTML Ordered List Element</em>) represents an ordered list of items. Typically, ordered-list items are displayed with a preceding numbering, which can be of any form, like numerals, letters or Romans numerals or even simple bullets. This numbered style is not defined in the HTML description of the page, but in its associated CSS, using the <code>list-style-type</code>property.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;p&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;p&gt;</code> element</strong> (or <em>HTML Paragraph Element</em>) represents a paragraph of text.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;pre&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;pre&gt;</code> element</strong> (or <em>HTML Preformatted Text</em>) represents preformatted text. Text within this element is typically displayed in a non-proportional ("monospace") font exactly as it is laid out in the file. Whitespace inside this element is displayed as typed.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;ul&gt;</code></td>
+                    <td>The<strong> HTML <code>&lt;ul&gt;</code> element</strong> (or <em>HTML U</em><em>nordered List Element</em><code>)</code> represents an unordered list of items, namely a collection of items that do not have a numerical ordering, and their order in the list is meaningless. Typically, unordered-list items are displayed with a bullet, which can be of several forms, like a dot, a circle or a squared. The bullet style is not defined in the HTML description of the page, but in its associated CSS, using the <code>list-style-type</code> property.</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 id="Inline_text_semantics">Inline text semantics</h2>
+        <p>Use the HTML inline text semantic to define the meaning, structure, or style of a word, line, or any arbitrary piece of text.</p>
+        <p></p>
+        <table class="standard-table">
+            <thead>
+                <tr>
+                    <th scope="col">Element</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;a&gt;</code></td>
+                    <td>The <em>HTML <code>Anchor</code> Element</em> (<strong><code>&lt;a&gt;</code></strong>) defines a hyperlink to a location on the same page or any other page on the Web. It can also be used (in an obsolete way) to create an anchor point—a destination for hyperlinks within the content of a page, so that links aren't limited to connecting simply to the top of a page.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;abbr&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;abbr&gt;</code> element</strong> (or <em>HTML Abbreviation Element</em>) represents an abbreviation and optionally provides a full description for it. If present, the <code>title</code> attribute must contain this full description and nothing else.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;b&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;b&gt;</code> Element</strong> represents a span of text stylistically different from normal text, without conveying any special importance or relevance. It is typically used for keywords in a summary, product names in a review, or other spans of text whose typical presentation would be boldfaced. Another example of its use is to mark the lead sentence of each paragraph of an article.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;bdi&gt;</code>></td>
+                    <td>The <em>HTML <code>&lt;bdi&gt;</code> Element</em> (or Bi-Directional Isolation Element) isolates a span of text that might be formatted in a different direction from other text outside it.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;bdo&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;bdo&gt;</code> Element</strong> (or <em>HTML bidirectional override element</em>) is used to override the current directionality of text. It causes the directionality of the characters to be ignored in favor of the specified directionality.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;br&gt;</code></td>
+                    <td>The HTML element<em> l</em><em>ine break </em><code>&lt;br&gt;</code> produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;cite&gt;</code></td>
+                    <td>The <em>HTML Citation Element</em> (<strong>&lt;cite&gt;</strong>) represents a reference to a creative work. It must include the title of a work or a URL reference, which may be in an abbreviated form according to the conventions used for the addition of citation metadata.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;code&gt;</code></td>
+                    <td>The <em>HTML Code Element</em> (<strong>&lt;code&gt;</strong>) represents a fragment of computer code. By default, it is displayed in the browser's default monospace font.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;data&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;data&gt;</code> Element</strong> links a given content with a machine-readable translation. If the content is time- or date-related, the <code>&lt;time&gt;</code> must be used.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;dfn&gt;</code></td>
+                    <td>The <em>HTML Definition Element</em> (<strong>&lt;dfn&gt;</strong>) represents the defining instance of a term.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;em&gt;</code></td>
+                    <td>The HTML<em> </em>element<em> emphasis </em> <strong>&lt;em&gt;</strong> marks text that has stress emphasis. The <code>&lt;em&gt;</code> element can be nested, with each level of nesting indicating a greater degree of emphasis.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;i&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;i&gt;</code> Element</strong> represents a range of text that is set off from the normal text for some reason, for example, technical terms, foreign language phrases, or fictional character thoughts. It is typically displayed in italic type.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;kbd&gt;</code></td>
+                    <td>The <em>HTML Keyboard Input Element</em> (<strong>&lt;kbd&gt;</strong>) represents user input and produces an inline element displayed in the browser's default monospace font.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;mark&gt;</code></td>
+                    <td>The <em>HTML Mark Element</em> (&lt;mark&gt;) represents highlighted text, i.e., a run of text marked for reference purpose, due to its <em>relevance</em> in a particular context. For example it can be used in a page showing search results to highlight every instance of the searched-for word.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;q&gt;</code></td>
+                    <td>The <em>HTML Quote Element</em> (<strong>&lt;q&gt;</strong>) indicates that the enclosed text is a short inline quotation. This element is intended for short quotations that don't require paragraph breaks; for long quotations use <code>&lt;blockquote&gt;</code> element.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;rp&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;rp&gt;</code> element</strong> is used to provide fall-back parenthesis for browsers non-supporting ruby annotations. Ruby annotations are for showing pronunciation of East Asian characters, like using Japanese furigana or Taiwainese bopomofo characters. The <code>&lt;rp&gt;</code> element is used in the case of lack of <code>&lt;ruby&gt;</code>element support its content has what should be displayed in order to indicate the presence of a ruby annotation, usually parentheses.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;rt&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;rt&gt;</code> Element</strong> embraces pronunciation of characters presented in a ruby annotations, which are used to describe the pronunciation of East Asian characters. This element is always used inside a <code>&lt;ruby&gt;</code>element.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;rtc&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;rtc&gt;</code> Element</strong> embraces semantic annotations of characters presented in a ruby of <code>&lt;rb&gt;</code> elements used inside of <code>&lt;ruby&gt;</code> element. <code>&lt;rb&gt;</code>elements can have both pronunciation (<code>&lt;rt&gt;</code>) and semantic (<code>&lt;rtc&gt;</code>) annotations.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;ruby&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;ruby&gt;</code> Element</strong> represents a ruby annotation. Ruby annotations are for showing pronunciation of East Asian characters.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;s&gt;</code></td>
+                    <td>The <em>HTML Strikethrough Element</em> (<code>&lt;s&gt;</code>) renders text with a strikethrough, or a line through it. Use the <code>&lt;s&gt;</code> element to represent things that are no longer relevant or no longer accurate. However, <code>&lt;s&gt;</code> is not appropriate when indicating document edits; for that, use the <code>&lt;del&gt;</code> and <code>&lt;ins&gt;</code> elements, as appropriate.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;samp&gt;</code></td>
+                    <td>The HTML <span style="font-family: courier new;">&lt;samp&gt;</span> element is an element intended to identify sample output from a computer program. It is usually displayed in the browser's default monotype font (such as Lucida Console).</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;small&gt;</code></td>
+                    <td>The HTML Small Element (<span style="font-family: Courier New;">&lt;small&gt;</span>) makes the text <em>font size</em> one size smaller (for example, from large to medium, or from small to x-small) down to the browser's minimum font size. In HTML5, this element is repurposed to represent side-comments and small print, including copyright and legal text, independent of its styled presentation.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;span&gt;</code></td>
+                    <td>The <strong>HTML <em><code>&lt;span&gt;</code></em> element</strong> is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the <code>class</code> or <code>id</code> attributes), or because they share attribute values, such as <code>lang</code>.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;strong&gt;</code></td>
+                    <td>The HTML Strong Element (<code>&lt;strong&gt;</code>) gives text strong importance, and is typically displayed in bold.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;sub&gt;</code></td>
+                    <td>The <em>HTML Subscript Element</em> (<code>&lt;sub&gt;</code>) defines a span of text that should be displayed, for typographic reasons, lower, and often smaller, than the main span of text.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;sup&gt;</code></td>
+                    <td>The <em>HTML Superscript Element</em> (<code>&lt;sup&gt;</code>) defines a span of text that should be displayed, for typographic reasons, higher, and often smaller, than the main span of text.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;time&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;time&gt;</code> element</strong> represents either a time on a 24-hour clock or a precise date in the Gregorian calendar (with optional time and timezone information).</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;u&gt;</code></td>
+                    <td>The <em>HTML Underline Element</em> (<code>&lt;u&gt;</code>) renders text with an underline, a line under the baseline of its content.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;var&gt;</code></td>
+                    <td>The HTML Variable Element (<code>&lt;var&gt;</code>) represents a variable in a mathematical expression or a programming context.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;wbr&gt;</code>></td>
+                    <td>The HTML element <em>word break opportunity</em> <code>&lt;wbr&gt;</code> represents a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location.</td>
+                </tr>
+            </tbody>
+        </table>
+        
 
 
     
