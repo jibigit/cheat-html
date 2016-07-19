@@ -389,7 +389,176 @@
                 </tr>
             </tbody>
         </table>
+        <p></p>
+        <h2 id="Image_and_multimedia">Image and multimedia</h2>
+        <img src="media.png" alt="picture medias">
+        <p>HTML supports various multimedia resources such as images, audio, and video.</p>
+        <p></p>
+        <table class="standard-table">
+            <thead>
+                <tr>
+                    <th scope="col">Element</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;area&gt;</code></td>
+                    <td>The <em>HTML <code>&lt;area&gt;</code> element</em> defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a <code>&lt;map&gt;</code> element.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;audio&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;audio&gt;</code> element</strong> is used to embed sound content in documents. It may contain one or more audio sources, represented using the <code>src</code> attribute or the <code>&lt;source&gt;</code> element; the browser will choose the most suitable one.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;map&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;map&gt;</code> element</strong> is used with <code>&lt;area&gt;</code> elements to define an image map (a clickable link area).</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;track&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;track&gt;</code> element</strong> is used as a child of the media elements—<code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code>. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (<code>.vtt</code> files) — Web Video Text Tracks.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;video&gt;</code></td>
+                    <td>Use the <strong>HTML <code>&lt;video&gt;</code> element</strong> to embed video content in a document. The video element contains one or more video sources. To specify a video source, use either the <code>src</code> attribute or the <code>&lt;source&gt;</code> element; the browser will choose the most suitable one.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p></p>
+        <h2 id="Embedded_content">Embedded content</h2>
+        <p>In addition to regular multimedia content, HTML can include a variety of other content, even if it's not always easy to interact with.</p>
+        <p></p>
+        <table class="standard-table">
+            <thead>
+                <tr>
+                    <th scope="col">Element</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;embed&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;embed&gt;</code> Element</strong> represents an integration point for an external application or interactive content (in other words, a plug-in).</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;object&gt;</code></td>
+                    <td>The <em>HTML Embedded Object Element</em> (<strong>&lt;object&gt;</strong>) represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;param&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;param&gt;</code> Element</strong> (or <em>HTML Parameter Element)</em> defines parameters for <code>&lt;object&gt;</code>.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;source&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;source&gt;</code> element</strong> specifies multiple media resources for either the <code>&lt;picture&gt;</code>, the <code>&lt;audio&gt;</code><code>&lt;video&gt;</code> element. It is an empty element. It is commonly used to serve the same media content in multiple formats supported by different browsers.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p></p>
+        <h2 id="Scripting">Scripting</h2>
+        <p>In order to create dynamic content and Web applications, HTML supports the use of scripting languages, most prominently JavaScript. Certain elements support this capability.</p>
+        <p></p>
+        <table class="standard-table">
+            <thead>
+                <tr>
+                    <th scope="col">Element</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;canvas&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;canvas&gt;</code> Element</strong> can be used to draw graphics via scripting (usually ). For example, it can be used to draw graphs, make photo compositions or even perform animations. You may (and should) provide alternate content inside the <code>&lt;canvas&gt;</code> block. That content will be rendered both on older browsers that don't support canvas <strong>and</strong> in browsers with JavaScript disabled.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;noscript&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;noscript&gt;</code> Element</strong> defines a section of html to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;script&gt;</code></td>
+                    <td>The <em>HTML Script Element</em> (<strong><code>&lt;script&gt;</code></strong>) is used to embed or reference an executable script within an HTML or XHTMLdocument.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p></p>
+        <h2 id="Demarcating_edits">Demarcating edits</h2>
+        <p>These elements let you provide indications that specific parts of the text have been altered.</p>
+        <p></p>
+        <table class="standard-table">
+            <thead>
+                <tr>
+                    <th scope="col">Element</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;del&gt;</code></td>
+                    <td>The <em>HTML Deleted Text Element</em> (<strong>&lt;del&gt;</strong>) represents a range of text that has been deleted from a document. This element is often (but need not be) rendered with strike-through text.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;ins&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;ins&gt;</code> Element</strong> (or <em>HTML Inserted Text</em>) HTML represents a range of text that has been added to a document.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p></p>
+        <h2 id="Table_content">Table content</h2>
+        <p>The elements here are used to create and handle tabular data.</p>
+        <p></p>
+        <table class="standard-table">
+            <thead>
+                <tr>
+                    <th scope="col">Element</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;caption&gt;</code></td>
+                    <td>The <strong>HTML <code>&lt;caption&gt;</code> Element</strong> (or <em>HTML Table Caption Element</em>) represents the title of a table. Though it is always the first descendant of a <code>&lt;table&gt;</code>, its styling, using CSS, may place it elsewhere, relative to the table.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;col&gt;</code></td>
+                    <td>The <em>HTML Table Column Element</em> (<strong>&lt;col&gt;</strong>) defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a <code>&lt;colgroup&gt;</code> element.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;colgroup&gt;</code></td>
+                    <td>The <em>HTML Table Column Group Element</em> (<strong>&lt;colgroup&gt;</strong>) defines a group of columns within a table.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;table&gt;</code></td>
+                    <td>The <strong>HTML Table Element</strong> (<code>&lt;table&gt;</code>) represents tabular data: information expressed via two dimensions or more.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;tbody&gt;</code></td>
+                    <td>The HTML <strong>Table Body Element (&lt;tbody&gt;)</strong> defines one or more <code>&lt;tr&gt;</code> element data-rows to be the body of its parent <code>&lt;table&gt;</code> element (as long as no &lt;tr&gt; elements are immediate children of that table element.) In conjunction with a preceding <code>&lt;thead&gt;</code> and/or <code>&lt;tfoot&gt;</code> element, &lt;tbody&gt; provides additional semantic information for devices such as printers and displays. Of the parent table's child elements, &lt;tbody&gt; represents the content which, when longer than a page, will most likely differ for each page printed; while the content of <code>&lt;thead&gt;</code> and <code>&lt;tfoot&gt;</code> will be the same or similar for each page printed. For displays, &lt;tbody&gt; will enable separate scrolling of the <code>&lt;thead&gt;</code>, <code>&lt;tfoot&gt;</code>, and <code>&lt;caption&gt;</code> elements of the same parent <code>&lt;table&gt;</code> element. Note that unlike the &lt;thead&gt;, &lt;tfoot&gt;, and &lt;caption&gt; elements however, multiple &lt;tbody&gt; elements are permitted (if consecutive), allowing the data-rows in long tables to be divided into different sections, each separately formatted as needed.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;td&gt;</code></td>
+                    <td>The <em>Table cell</em> HTML element (<strong><code>&lt;td&gt;</code></strong>) defines a cell of a table that contains data. It participates in the <em>table model</em>.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;tfoot&gt;</code></td>
+                    <td>The <em>HTML Table Foot Element</em> (<code>&lt;tfoot&gt;</code>) defines a set of rows summarizing the columns of the table.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;th&gt;</code></td>
+                    <td>The HTML element <em>table header cell</em> <code>&lt;th&gt;</code> defines a cell as a header for a group of cells of a table. The group of cells that the header refers to is defined by the <code>scope</code> and <code>headers</code> attribute.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;thead&gt;</code></td>
+                    <td>The <em>HTML Table Head Element</em> (<code>&lt;thead&gt;</code>) defines a set of rows defining the head of the columns of the table.</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;"><code>&lt;tr&gt;</code></td>
+                    <td>The HTML element<em> table row </em><code>&lt;tr&gt;</code> defines a row of cells in a table. Those can be a mix of <code>&lt;td&gt;</code> and <code>&lt;th&gt;</code> elements.</td>
+                </tr>
+            </tbody>
+        </table>
+
         
+
 
 
     
